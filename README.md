@@ -39,33 +39,33 @@ This is a simple Task Management Application that allows users to create, read, 
    git clone https://github.com/yourusername/task-management-app.git
    cd task-management-app
 
-#Navigate to the backend directory and install dependencies:
+# Navigate to the backend directory and install dependencies:
 cd backend
 npm install
 
-#Create the SQLite database:
+## Create the SQLite database:
 node createDatabase.js
 
-#Running the Application
--Backend
-node server.js
-The server will start on http://localhost:5000.
+## Running the Application
+### Backend
+- node server.js
+- The server will start on http://localhost:5000.
 
--Frontend
-npm install -g http-server
-http-server
-The server will start on http://localhost:8080.
+### Frontend
+- npm install -g http-server
+- http-server
+- The server will start on http://localhost:8080.
 
--Open your web browser and go to http://localhost:8080 to view the application.
+- Open your web browser and go to http://localhost:8080 to view the application.
 
-#API Endpoints
--GET /api/tasks: Retrieve all tasks.
--POST /api/tasks: Create a new task.
--GET /api/tasks/:id: Retrieve a single task by its ID.
--PUT /api/tasks/:id: Update an existing task.
--DELETE /api/tasks/:id: Delete a task.
+## API Endpoints
+- GET /api/tasks: Retrieve all tasks.
+- POST /api/tasks: Create a new task.
+- GET /api/tasks/:id: Retrieve a single task by its ID.
+- PUT /api/tasks/:id: Update an existing task.
+- DELETE /api/tasks/:id: Delete a task.
 
-#Future Improvements
--Add user authentication to allow multiple users to manage their tasks.
--Implement filtering and searching functionality for tasks.
--Enhance the UI with more animations and interactive elements.
+### Future Improvements
+- Add user authentication to allow multiple users to manage their tasks.
+- Implement filtering and searching functionality for tasks.
+- Enhance the UI with more animations and interactive elements.
